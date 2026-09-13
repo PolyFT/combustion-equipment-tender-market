@@ -26,8 +26,9 @@
     }
   ],
   "search_adapters": [
-    "duckduckgo_html",
-    "bing_rss"
+    "bing_html",
+    "bing_rss",
+    "duckduckgo_html"
   ],
   "preferred_domains": [
     "ccgp.gov.cn",
