@@ -67,8 +67,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # Do not create a commit merely because scan_status.json timestamp changed.
-          if git diff --quiet -- data/auto_candidates.jsonl data/auto_candidates.md; then
+          # git diff does not report untracked files on the first run, so use status.
+          if [[ -z "$(git status --porcelain -- data/auto_candidates.jsonl data/auto_candidates.md)" ]]; then
             echo "No new candidate URLs/titles; nothing to commit."
             exit 0
           fi
