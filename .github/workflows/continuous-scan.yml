@@ -17,6 +17,7 @@ on:
       - ".github/workflows/continuous-scan.yml"
       - "scripts/scan_tenders.py"
       - "config/queries.json"
+      - "config/sources.json"
 
 permissions:
   contents: write
@@ -28,7 +29,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,6 +42,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate scanner syntax
+        run: python -m py_compile scripts/scan_tenders.py
+
       - name: Scan public procurement sources
         shell: bash
         env:
@@ -50,6 +54,7 @@ jobs:
           if [[ "$FULL_SCAN" == "true" ]]; then
             python scripts/scan_tenders.py \
               --queries config/queries.json \
+              --sources config/sources.json \
               --output data/auto_candidates.jsonl \
               --markdown data/auto_candidates.md \
               --full-scan \
@@ -57,6 +62,7 @@ jobs:
           else
             python scripts/scan_tenders.py \
               --queries config/queries.json \
+              --sources config/sources.json \
               --output data/auto_candidates.jsonl \
               --markdown data/auto_candidates.md \
               --max-queries 12 \
@@ -67,9 +73,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # git diff does not report untracked files on the first run, so use status.
           if [[ -z "$(git status --porcelain -- data/auto_candidates.jsonl data/auto_candidates.md)" ]]; then
             echo "No new candidate URLs/titles; nothing to commit."
+            cat data/scan_status.json || true
             exit 0
           fi
 
@@ -78,7 +84,6 @@ jobs:
           git add data/auto_candidates.jsonl data/auto_candidates.md data/scan_status.json
           git commit -m "auto: discover new combustion tender candidates"
 
-          # A human edit may land while this job is running. Rebase once before retrying.
           git push || {
             git pull --rebase origin main
             git push
