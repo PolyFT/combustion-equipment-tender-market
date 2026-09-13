@@ -1,0 +1,48 @@
+{
+  "listing_sources": [
+    {
+      "name": "ccgp_central_tender",
+      "base_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/",
+      "grade": "A",
+      "pages_per_run": 3
+    },
+    {
+      "name": "ccgp_central_award",
+      "base_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/",
+      "grade": "A",
+      "pages_per_run": 3
+    },
+    {
+      "name": "ccgp_local_tender",
+      "base_url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/",
+      "grade": "A",
+      "pages_per_run": 3
+    },
+    {
+      "name": "ccgp_local_award",
+      "base_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/",
+      "grade": "A",
+      "pages_per_run": 3
+    }
+  ],
+  "search_adapters": [
+    "duckduckgo_html",
+    "bing_rss"
+  ],
+  "preferred_domains": [
+    "ccgp.gov.cn",
+    "cgyx.ccgp.gov.cn",
+    "ccgp-shaanxi.gov.cn",
+    "bidding.csg.cn",
+    "chnenergybidding.com.cn",
+    "buy.cnooc.com.cn",
+    "csscbidding.com",
+    "srm.catarc.ac.cn",
+    "shbid.com",
+    "scfri.cn",
+    "zbpt.njust.edu.cn",
+    "bidding.szu.edu.cn",
+    "cwyzcglb.haust.edu.cn",
+    "zbcg.erzhong-heavy.com"
+  ]
+}
