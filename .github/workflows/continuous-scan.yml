@@ -1,0 +1,85 @@
+name: Continuous combustion tender scan
+
+on:
+  schedule:
+    # GitHub Actions scheduled workflows support 5-minute cron granularity.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      full_scan:
+        description: "Scan all configured queries in this run"
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/continuous-scan.yml"
+      - "scripts/scan_tenders.py"
+      - "config/queries.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: combustion-tender-continuous-scan
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan public procurement sources
+        shell: bash
+        env:
+          FULL_SCAN: ${{ github.event_name == 'workflow_dispatch' && inputs.full_scan || 'false' }}
+        run: |
+          set -euo pipefail
+          if [[ "$FULL_SCAN" == "true" ]]; then
+            python scripts/scan_tenders.py \
+              --queries config/queries.json \
+              --output data/auto_candidates.jsonl \
+              --markdown data/auto_candidates.md \
+              --full-scan \
+              --workers 12
+          else
+            python scripts/scan_tenders.py \
+              --queries config/queries.json \
+              --output data/auto_candidates.jsonl \
+              --markdown data/auto_candidates.md \
+              --max-queries 12 \
+              --workers 8
+          fi
+
+      - name: Commit only when candidate set changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Do not create a commit merely because scan_status.json timestamp changed.
+          if git diff --quiet -- data/auto_candidates.jsonl data/auto_candidates.md; then
+            echo "No new candidate URLs/titles; nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "combustion-market-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/auto_candidates.jsonl data/auto_candidates.md data/scan_status.json
+          git commit -m "auto: discover new combustion tender candidates"
+
+          # A human edit may land while this job is running. Rebase once before retrying.
+          git push || {
+            git pull --rebase origin main
+            git push
+          }
