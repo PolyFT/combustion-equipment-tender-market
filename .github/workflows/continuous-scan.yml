@@ -2,7 +2,6 @@ name: Continuous combustion tender scan
 
 on:
   schedule:
-    # GitHub Actions scheduled workflows support 5-minute cron granularity.
     - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
@@ -69,22 +68,62 @@ jobs:
               --workers 8
           fi
 
-      - name: Commit only when candidate set changes
+      - name: Commit candidates safely
         shell: bash
+        env:
+          FULL_SCAN: ${{ github.event_name == 'workflow_dispatch' && inputs.full_scan || 'false' }}
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain -- data/auto_candidates.jsonl data/auto_candidates.md)" ]]; then
-            echo "No new candidate URLs/titles; nothing to commit."
-            cat data/scan_status.json || true
-            exit 0
-          fi
+
+          run_scan() {
+            if [[ "$FULL_SCAN" == "true" ]]; then
+              python scripts/scan_tenders.py \
+                --queries config/queries.json \
+                --sources config/sources.json \
+                --output data/auto_candidates.jsonl \
+                --markdown data/auto_candidates.md \
+                --full-scan \
+                --workers 12
+            else
+              python scripts/scan_tenders.py \
+                --queries config/queries.json \
+                --sources config/sources.json \
+                --output data/auto_candidates.jsonl \
+                --markdown data/auto_candidates.md \
+                --max-queries 12 \
+                --workers 8
+            fi
+          }
+
+          commit_if_changed() {
+            if [[ -z "$(git status --porcelain -- data/auto_candidates.jsonl data/auto_candidates.md)" ]]; then
+              echo "No candidate changes; nothing to commit."
+              cat data/scan_status.json || true
+              return 1
+            fi
+            git add data/auto_candidates.jsonl data/auto_candidates.md data/scan_status.json
+            git commit -m "auto: discover new combustion tender candidates"
+            return 0
+          }
 
           git config user.name "combustion-market-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/auto_candidates.jsonl data/auto_candidates.md data/scan_status.json
-          git commit -m "auto: discover new combustion tender candidates"
 
-          git push || {
-            git pull --rebase origin main
-            git push
-          }
+          if ! commit_if_changed; then
+            exit 0
+          fi
+
+          if git push; then
+            exit 0
+          fi
+
+          echo "Remote changed during scan; rebuilding candidate files against latest main."
+          git rebase --abort 2>/dev/null || true
+          git fetch origin main
+          git reset --hard origin/main
+          run_scan
+
+          if ! commit_if_changed; then
+            exit 0
+          fi
+          git push
