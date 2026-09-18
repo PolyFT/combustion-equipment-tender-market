@@ -2,10 +2,13 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**6** 条。
+当前候选：**9** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 北京科技大学耐火材料高温服役性能安全模拟软件采购项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358610.htm) |
+| 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 北京大学材料科学与工程学院差示扫描量热仪采购项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358136.htm) |
+| 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 中国石油大学（华东）海上储能装置故障诊断与火灾防控实验系统采购项目（二次）招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358481.htm) |
 | 2026-09-18T05:52:34+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 应急管理部沈阳消防研究所燃气火灾图谱特征实验采集平台购置项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27352176.htm) |
 | 2026-09-17T17:07:02+00:00 | ccgp_listing | ccgp_local_tender | A | 招标 | 康复大学分析测试中心微量热泳动仪设备采购项目公开招标招标公告 | [打开](https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260917_27350512.htm) |
 | 2026-09-17T12:14:04+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 火灾物证实时高分辨无损分析系统购置项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260917_27348553.htm) |
