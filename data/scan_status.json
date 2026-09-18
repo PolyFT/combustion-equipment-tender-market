@@ -1,60 +1,60 @@
 {
-  "scanned_at": "2026-09-17T17:07:02+00:00",
+  "scanned_at": "2026-09-18T05:52:34+00:00",
   "tasks_scanned": 48,
   "queries_selected": 12,
   "new_candidates": 1,
   "pruned_existing": 0,
-  "total_candidates": 5,
+  "total_candidates": 6,
   "discovered_before_dedupe": 1,
   "adapter_summary": {
-    "duckduckgo_html": {
-      "tasks": 12,
-      "raw_hits": 0,
-      "filtered_hits": 0,
-      "errors": 0,
-      "avg_seconds": 0.07
-    },
     "bing_rss": {
       "tasks": 12,
-      "raw_hits": 118,
+      "raw_hits": 117,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.461
+      "avg_seconds": 0.248
     },
     "bing_html": {
       "tasks": 12,
       "raw_hits": 0,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.385
+      "avg_seconds": 0.24
+    },
+    "duckduckgo_html": {
+      "tasks": 12,
+      "raw_hits": 0,
+      "filtered_hits": 0,
+      "errors": 0,
+      "avg_seconds": 0.21
     },
     "ccgp_central_tender": {
       "tasks": 3,
       "raw_hits": 60,
-      "filtered_hits": 0,
+      "filtered_hits": 1,
       "errors": 0,
-      "avg_seconds": 2.053
+      "avg_seconds": 1.928
     },
     "ccgp_central_award": {
       "tasks": 3,
       "raw_hits": 60,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 3.578
-    },
-    "ccgp_local_tender": {
-      "tasks": 3,
-      "raw_hits": 60,
-      "filtered_hits": 1,
-      "errors": 0,
-      "avg_seconds": 3.111
+      "avg_seconds": 3.246
     },
     "ccgp_local_award": {
       "tasks": 3,
       "raw_hits": 60,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 1.115
+      "avg_seconds": 0.974
+    },
+    "ccgp_local_tender": {
+      "tasks": 3,
+      "raw_hits": 60,
+      "filtered_hits": 0,
+      "errors": 0,
+      "avg_seconds": 3.033
     }
   },
   "errors": []

@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**5** 条。
+当前候选：**6** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-09-18T05:52:34+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 应急管理部沈阳消防研究所燃气火灾图谱特征实验采集平台购置项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27352176.htm) |
 | 2026-09-17T17:07:02+00:00 | ccgp_listing | ccgp_local_tender | A | 招标 | 康复大学分析测试中心微量热泳动仪设备采购项目公开招标招标公告 | [打开](https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260917_27350512.htm) |
 | 2026-09-17T12:14:04+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 火灾物证实时高分辨无损分析系统购置项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260917_27348553.htm) |
 | 2026-09-16T14:31:29+00:00 | ccgp_listing | ccgp_central_award | A | 中标 | 华蓥市消防救援大队独立式感烟火灾探测报警器和简易自动喷水灭火系统采购及安装工程项目中标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260916_27341135.htm) |
