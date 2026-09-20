@@ -2,10 +2,13 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**9** 条。
+当前候选：**12** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 防火_百度百科 | [打开](https://baike.baidu.com/item/%E9%98%B2%E7%81%AB/4238043) |
+| 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 防火规范,建筑设计防火规范GB50016-2014（2018年版） | [打开](https://www.soujianzhu.cn/NormAndRules/NormContent.aspx?id=323) |
+| 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 2025最新《建筑设计防火规范》GB-50016-2025全文完整版 | [打开](https://www.doc88.com/p-50380451850055.html) |
 | 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 北京科技大学耐火材料高温服役性能安全模拟软件采购项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358610.htm) |
 | 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 北京大学材料科学与工程学院差示扫描量热仪采购项目公开招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358136.htm) |
 | 2026-09-18T14:35:49+00:00 | ccgp_listing | ccgp_central_tender | A | 招标 | 中国石油大学（华东）海上储能装置故障诊断与火灾防控实验系统采购项目（二次）招标公告 | [打开](https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260918_27358481.htm) |

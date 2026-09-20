@@ -1,18 +1,18 @@
 {
-  "scanned_at": "2026-09-18T14:35:49+00:00",
+  "scanned_at": "2026-09-20T20:16:15+00:00",
   "tasks_scanned": 48,
   "queries_selected": 12,
   "new_candidates": 3,
   "pruned_existing": 0,
-  "total_candidates": 9,
+  "total_candidates": 12,
   "discovered_before_dedupe": 3,
   "adapter_summary": {
-    "duckduckgo_html": {
+    "bing_rss": {
       "tasks": 12,
-      "raw_hits": 0,
-      "filtered_hits": 0,
+      "raw_hits": 121,
+      "filtered_hits": 3,
       "errors": 0,
-      "avg_seconds": 0.095
+      "avg_seconds": 0.321
     },
     "bing_html": {
       "tasks": 12,
@@ -21,41 +21,54 @@
       "errors": 0,
       "avg_seconds": 0.382
     },
-    "bing_rss": {
+    "duckduckgo_html": {
       "tasks": 12,
-      "raw_hits": 117,
+      "raw_hits": 0,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.495
-    },
-    "ccgp_central_tender": {
-      "tasks": 3,
-      "raw_hits": 60,
-      "filtered_hits": 3,
-      "errors": 0,
-      "avg_seconds": 1.778
-    },
-    "ccgp_local_tender": {
-      "tasks": 3,
-      "raw_hits": 60,
-      "filtered_hits": 0,
-      "errors": 0,
-      "avg_seconds": 3.728
-    },
-    "ccgp_local_award": {
-      "tasks": 3,
-      "raw_hits": 60,
-      "filtered_hits": 0,
-      "errors": 0,
-      "avg_seconds": 1.228
+      "avg_seconds": 0.182
     },
     "ccgp_central_award": {
       "tasks": 3,
-      "raw_hits": 60,
+      "raw_hits": 0,
       "filtered_hits": 0,
-      "errors": 0,
-      "avg_seconds": 4.364
+      "errors": 3,
+      "avg_seconds": 0.0
+    },
+    "ccgp_central_tender": {
+      "tasks": 3,
+      "raw_hits": 0,
+      "filtered_hits": 0,
+      "errors": 3,
+      "avg_seconds": 0.0
+    },
+    "ccgp_local_tender": {
+      "tasks": 3,
+      "raw_hits": 0,
+      "filtered_hits": 0,
+      "errors": 3,
+      "avg_seconds": 0.0
+    },
+    "ccgp_local_award": {
+      "tasks": 3,
+      "raw_hits": 0,
+      "filtered_hits": 0,
+      "errors": 3,
+      "avg_seconds": 0.0
     }
   },
-  "errors": []
+  "errors": [
+    "ccgp_central_award: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_tender: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_tender: page:1: HTTPError: HTTP Error 403: Forbidden"
+  ]
 }
