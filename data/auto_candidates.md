@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**13** 条。
+当前候选：**14** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-09-27T01:55:18+00:00 | official_sources | bing_rss | C |  | 火災 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E7%81%AB%E7%81%BD) |
 | 2026-09-22T07:17:11+00:00 | aviation_marine_fire | bing_rss | C |  | 火灾（燃烧所造成的灾害）_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%81%BE/1382058) |
 | 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 防火_百度百科 | [打开](https://baike.baidu.com/item/%E9%98%B2%E7%81%AB/4238043) |
 | 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 防火规范,建筑设计防火规范GB50016-2014（2018年版） | [打开](https://www.soujianzhu.cn/NormAndRules/NormContent.aspx?id=323) |

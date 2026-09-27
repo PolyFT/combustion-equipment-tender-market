@@ -1,39 +1,32 @@
 {
-  "scanned_at": "2026-09-22T07:17:11+00:00",
+  "scanned_at": "2026-09-27T01:55:18+00:00",
   "tasks_scanned": 48,
   "queries_selected": 12,
   "new_candidates": 1,
   "pruned_existing": 0,
-  "total_candidates": 13,
-  "discovered_before_dedupe": 3,
+  "total_candidates": 14,
+  "discovered_before_dedupe": 4,
   "adapter_summary": {
-    "bing_rss": {
+    "duckduckgo_html": {
       "tasks": 12,
-      "raw_hits": 120,
-      "filtered_hits": 3,
+      "raw_hits": 0,
+      "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.232
+      "avg_seconds": 0.054
     },
     "bing_html": {
       "tasks": 12,
       "raw_hits": 0,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.268
+      "avg_seconds": 1.264
     },
-    "duckduckgo_html": {
+    "bing_rss": {
       "tasks": 12,
-      "raw_hits": 0,
-      "filtered_hits": 0,
+      "raw_hits": 90,
+      "filtered_hits": 4,
       "errors": 0,
-      "avg_seconds": 0.195
-    },
-    "ccgp_central_award": {
-      "tasks": 3,
-      "raw_hits": 0,
-      "filtered_hits": 0,
-      "errors": 3,
-      "avg_seconds": 0.0
+      "avg_seconds": 1.075
     },
     "ccgp_central_tender": {
       "tasks": 3,
@@ -42,7 +35,7 @@
       "errors": 3,
       "avg_seconds": 0.0
     },
-    "ccgp_local_tender": {
+    "ccgp_central_award": {
       "tasks": 3,
       "raw_hits": 0,
       "filtered_hits": 0,
@@ -55,20 +48,27 @@
       "filtered_hits": 0,
       "errors": 3,
       "avg_seconds": 0.0
+    },
+    "ccgp_local_tender": {
+      "tasks": 3,
+      "raw_hits": 0,
+      "filtered_hits": 0,
+      "errors": 3,
+      "avg_seconds": 0.0
     }
   },
   "errors": [
-    "ccgp_central_award: page:0: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_central_tender: page:1: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_central_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_central_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_tender: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:1: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_award: page:0: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_award: page:2: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_local_award: page:1: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_central_award: page:2: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_central_award: page:1: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:2: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_tender: page:1: HTTPError: HTTP Error 403: Forbidden"
   ]
 }
