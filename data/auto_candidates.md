@@ -2,10 +2,20 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**14** 条。
+当前候选：**24** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 火烧（流行于北方的传统食品）_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%83%A7/1515025) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 究竟哪个北方人能说明白，到底啥是火烧？ | [打开](https://zhuanlan.zhihu.com/p/488819596) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 卤煮火烧 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E5%8D%A4%E7%85%AE%E7%81%AB%E7%83%A7) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 山东火烧_百度百科 | [打开](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%81%AB%E7%83%A7/9320628) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 究竟哪个北方人能说明白，到底啥是火烧？_澎湃号·湃客_澎湃新闻-The Paper | [打开](https://www.thepaper.cn/newsDetail_forward_17331933) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 【火烧的做法大全_火烧家常做法_怎么做好吃】_下厨房 | [打开](https://m.xiachufang.com/category/1005557) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 我国最好吃的8种火烧，吃过5种是行家，你吃过几种 | [打开](https://www.toutiao.com/article/7579770075931099700) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 想吃火烧不用出去买了，做法比例详细告诉你，自己在家就能做 | [打开](https://zhuanlan.zhihu.com/p/85826202) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 【步骤图】火烧（火烧馍）的做法_火烧（火烧馍）的做法步骤_主食_下厨房 | [打开](https://m.xiachufang.com/recipe/104189523) |
+| 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 火烧是什么地方特产？山东vs河北vs河南全方位解析及食用指南 | [打开](https://www.wendabang.cn/readnews/48829) |
 | 2026-09-27T01:55:18+00:00 | official_sources | bing_rss | C |  | 火災 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E7%81%AB%E7%81%BD) |
 | 2026-09-22T07:17:11+00:00 | aviation_marine_fire | bing_rss | C |  | 火灾（燃烧所造成的灾害）_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%81%BE/1382058) |
 | 2026-09-20T20:16:15+00:00 | aviation_marine_fire | bing_rss | C |  | 防火_百度百科 | [打开](https://baike.baidu.com/item/%E9%98%B2%E7%81%AB/4238043) |
