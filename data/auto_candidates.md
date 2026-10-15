@@ -2,10 +2,13 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**24** 条。
+当前候选：**27** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-10-15T04:29:02+00:00 | official_sources | bing_rss | C |  | 啥是“火烧”？哪的最好吃？一次说清楚_腾讯新闻 | [打开](https://news.qq.com/rain/a/20260109A016T300) |
+| 2026-10-15T04:29:02+00:00 | official_sources | bing_rss | C |  | 火烧和烧饼有什么不同？ - 知乎 | [打开](https://www.zhihu.com/question/20837113) |
+| 2026-10-15T04:29:02+00:00 | official_sources | bing_rss | C |  | 一酥二脆三空心，咬一口满嘴掉渣，老师傅教你空心油酥火烧的做法，夹肉夹菜都很香_哔哩哔哩_bilibili | [打开](https://www.bilibili.com/video/BV1SL411J7Sn) |
 | 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 火烧（流行于北方的传统食品）_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%83%A7/1515025) |
 | 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 究竟哪个北方人能说明白，到底啥是火烧？ | [打开](https://zhuanlan.zhihu.com/p/488819596) |
 | 2026-10-14T01:58:41+00:00 | official_sources | bing_rss | C |  | 卤煮火烧 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E5%8D%A4%E7%85%AE%E7%81%AB%E7%83%A7) |
