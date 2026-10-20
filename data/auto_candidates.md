@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**29** 条。
+当前候选：**30** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-10-20T07:26:42+00:00 | official_sources | bing_rss | C |  | 消防基础知识100点 - 知乎专栏 | [打开](https://zhuanlan.zhihu.com/p/161691977) |
 | 2026-10-18T21:31:37+00:00 | material_fire | bing_rss | C |  | 电缆_百度百科 | [打开](https://baike.baidu.com/item/%E7%94%B5%E7%BC%86/5942260) |
 | 2026-10-15T21:35:17+00:00 | large_scale_fire | bing_rss | C | 招标 | 重庆交通大学--Welcome to Chongqing Jiaotong University | [打开](https://www.cqjtu.edu.cn) |
 | 2026-10-15T04:29:02+00:00 | official_sources | bing_rss | C |  | 啥是“火烧”？哪的最好吃？一次说清楚_腾讯新闻 | [打开](https://news.qq.com/rain/a/20260109A016T300) |
