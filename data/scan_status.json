@@ -1,32 +1,32 @@
 {
-  "scanned_at": "2026-10-21T07:30:03+00:00",
+  "scanned_at": "2026-10-24T05:25:57+00:00",
   "tasks_scanned": 48,
   "queries_selected": 12,
-  "new_candidates": 3,
+  "new_candidates": 1,
   "pruned_existing": 0,
-  "total_candidates": 33,
-  "discovered_before_dedupe": 3,
+  "total_candidates": 34,
+  "discovered_before_dedupe": 4,
   "adapter_summary": {
-    "bing_rss": {
-      "tasks": 12,
-      "raw_hits": 118,
-      "filtered_hits": 3,
-      "errors": 0,
-      "avg_seconds": 0.205
-    },
     "bing_html": {
       "tasks": 12,
       "raw_hits": 0,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.216
+      "avg_seconds": 0.207
+    },
+    "bing_rss": {
+      "tasks": 12,
+      "raw_hits": 110,
+      "filtered_hits": 4,
+      "errors": 0,
+      "avg_seconds": 0.175
     },
     "duckduckgo_html": {
       "tasks": 12,
       "raw_hits": 0,
       "filtered_hits": 0,
       "errors": 0,
-      "avg_seconds": 0.208
+      "avg_seconds": 0.159
     },
     "ccgp_central_tender": {
       "tasks": 3,
@@ -58,17 +58,17 @@
     }
   },
   "errors": [
-    "ccgp_central_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_central_award: page:0: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_central_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_central_tender: page:1: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_local_award: page:1: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_local_award: page:0: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_local_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:0: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_award: page:2: HTTPError: HTTP Error 403: Forbidden",
-    "ccgp_central_award: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_award: page:1: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_local_tender: page:2: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_central_award: page:2: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_tender: page:0: HTTPError: HTTP Error 403: Forbidden",
+    "ccgp_central_award: page:1: HTTPError: HTTP Error 403: Forbidden",
     "ccgp_local_tender: page:1: HTTPError: HTTP Error 403: Forbidden"
   ]
 }
