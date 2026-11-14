@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**38** 条。
+当前候选：**39** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-11-14T09:49:35+00:00 | aviation_marine_fire | bing_rss | C |  | 建筑设计防火规范GB50016—2014（2018年版） | [打开](https://www.soujianzhu.cn/NormAndRules/NormContent.aspx?id=318) |
 | 2026-11-03T03:39:58+00:00 | large_scale_fire | bing_rss | C |  | ABCD四类火灾_百度百科 | [打开](https://baike.baidu.com/item/ABCD%E5%9B%9B%E7%B1%BB%E7%81%AB%E7%81%BE/68136775) |
 | 2026-11-03T03:39:58+00:00 | large_scale_fire | bing_rss | C |  | 火灾科普库_国家应急广播网 | [打开](https://www.cneb.gov.cn/huozai) |
 | 2026-10-28T11:37:48+00:00 | large_scale_fire | bing_rss | C |  | 南方医科大学南方医院停车场道闸系统定制采购项目询价公告_南方医科大学南方医院/第一临床医学院 | [打开](https://www.nfyy.com/zc/scdy/a_114759.html) |
