@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**41** 条。
+当前候选：**42** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-11-18T12:18:27+00:00 | aviation_marine_fire | bing_rss | C |  | 建筑设计防火规范 GB50016-2014（2018年版） - 中国建筑科学研究院建筑防火研究所-消防规范网 | [打开](https://gf.cabr-fire.com/list-991.htm) |
 | 2026-11-15T14:36:06+00:00 | large_scale_fire | bing_rss | C |  | 火灾 _ 百科 | [打开](https://baike.sogou.com/v180406148.htm) |
 | 2026-11-15T00:23:06+00:00 | ablation | bing_rss | C | 招标 / 143000元 | cqust - 重庆科技大学采购与招标办公室 | [打开](https://zbb.cqust.edu.cn/index.htm) |
 | 2026-11-14T09:49:35+00:00 | aviation_marine_fire | bing_rss | C |  | 建筑设计防火规范GB50016—2014（2018年版） | [打开](https://www.soujianzhu.cn/NormAndRules/NormContent.aspx?id=318) |
