@@ -2,10 +2,15 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**42** 条。
+当前候选：**47** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 火灾危害_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%81%BE%E5%8D%B1%E5%AE%B3/22939860) |
+| 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 耐火等级_百度百科 | [打开](https://baike.baidu.com/item/%E8%80%90%E7%81%AB%E7%AD%89%E7%BA%A7/11029760) |
+| 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 5.1 建筑分类和耐火等级 - 建筑设计防火规范 GB50016-2014（2018年版） - 消防规范大全 - 中国建筑科学研究院建筑防火 ... | [打开](https://gf.cabr-fire.com/article-27247.htm) |
+| 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 中国哪里的火烧好吃？经过评选，这5个地方上榜，有你的家乡吗？ | [打开](https://zhuanlan.zhihu.com/p/695768040) |
+| 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | “火烧”是个啥？有啥“火烧”呢？带你走进“火烧”的世界 | [打开](https://www.sohu.com/a/672518252_159587) |
 | 2026-11-18T12:18:27+00:00 | aviation_marine_fire | bing_rss | C |  | 建筑设计防火规范 GB50016-2014（2018年版） - 中国建筑科学研究院建筑防火研究所-消防规范网 | [打开](https://gf.cabr-fire.com/list-991.htm) |
 | 2026-11-15T14:36:06+00:00 | large_scale_fire | bing_rss | C |  | 火灾 _ 百科 | [打开](https://baike.sogou.com/v180406148.htm) |
 | 2026-11-15T00:23:06+00:00 | ablation | bing_rss | C | 招标 / 143000元 | cqust - 重庆科技大学采购与招标办公室 | [打开](https://zbb.cqust.edu.cn/index.htm) |
