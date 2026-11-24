@@ -2,10 +2,11 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**47** 条。
+当前候选：**48** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-11-24T05:28:18+00:00 | official_sources | bing_rss | C |  | 火灾的定义、原因、危害及预防措施 - 百度健康 | [打开](https://health.baidu.com/m/detail/ar_9718019735218790139) |
 | 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 火灾危害_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%81%BE%E5%8D%B1%E5%AE%B3/22939860) |
 | 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 耐火等级_百度百科 | [打开](https://baike.baidu.com/item/%E8%80%90%E7%81%AB%E7%AD%89%E7%BA%A7/11029760) |
 | 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 5.1 建筑分类和耐火等级 - 建筑设计防火规范 GB50016-2014（2018年版） - 消防规范大全 - 中国建筑科学研究院建筑防火 ... | [打开](https://gf.cabr-fire.com/article-27247.htm) |
