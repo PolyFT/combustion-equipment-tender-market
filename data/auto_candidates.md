@@ -2,10 +2,13 @@
 
 > 由 GitHub Actions 多源扫描自动发现。它是**候选库，不等同于已核验主表**；进入市场统计前仍需回溯一手公告并核验金额口径。
 
-当前候选：**49** 条。
+当前候选：**52** 条。
 
 | 首次发现 | 类别 | 来源 | 等级 | 状态/金额线索 | 项目 | 链接 |
 |---|---|---|:---:|---|---|---|
+| 2026-11-27T11:59:12+00:00 | official_sources | bing_rss | C |  | 历史性火灾列表 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E5%8E%86%E5%8F%B2%E6%80%A7%E7%81%AB%E7%81%BE%E5%88%97%E8%A1%A8) |
+| 2026-11-27T11:59:12+00:00 | official_sources | bing_rss | C |  | 2000年汕头迎宾馆火灾 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/2000%E5%B9%B4%E6%B1%95%E5%A4%B4%E8%BF%8E%E5%AE%BE%E9%A6%86%E7%81%AB%E7%81%BE) |
+| 2026-11-27T11:59:12+00:00 | official_sources | bing_rss | C |  | 驴肉火烧 - 维基百科，自由的百科全书 | [打开](https://zh.wikipedia.org/wiki/%E9%A9%B4%E8%82%89%E7%81%AB%E7%83%A7) |
 | 2026-11-25T09:24:43+00:00 | ablation | bing_rss | C | 招标 | 我想查一个企业的工商信息，但是天眼查收费，有没有不收费的啊？_百度知道 | [打开](https://zhidao.baidu.com/question/943512768629440452.html) |
 | 2026-11-24T05:28:18+00:00 | official_sources | bing_rss | C |  | 火灾的定义、原因、危害及预防措施 - 百度健康 | [打开](https://health.baidu.com/m/detail/ar_9718019735218790139) |
 | 2026-11-21T12:27:35+00:00 | official_sources | bing_rss | C |  | 火灾危害_百度百科 | [打开](https://baike.baidu.com/item/%E7%81%AB%E7%81%BE%E5%8D%B1%E5%AE%B3/22939860) |
